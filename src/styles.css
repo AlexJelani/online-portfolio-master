@@ -2,7 +2,9 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
-
+li .lang {
+  font-size:large;
+}
 section {
   background-color: white;
 }
@@ -108,7 +110,7 @@ p.input.textarea.label {
   color: white;
 }
 .logo {
-  height: 200px;
+  height: 130px;
   margin: 0;
 }
 
@@ -230,4 +232,53 @@ button {
 }
 .inactive {
   background: red;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px 0;
+  color: #828282;
+  background-color: transparent;
+
+
+}
+
+ input.textarea.label {
+  display: block;
+  margin: 0 auto;
+  color: #828282;
+
+} 
+input, textarea {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #828282;
+}
+
+input[type=submit] {
+  background-color: #545557;
+  padding: 15px 0;
+  color: white;
+  font-size: 18px;
+  border-bottom: none;
+  margin-top:30px ;
+  cursor: pointer;
+  transition: all .3s ease;
+
+}
+input[type=submit]:hover {
+  background: #fff;
+  color: #1b1c1e;
+}
+input, textarea {
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+}
+input:focus, textarea:focus {
+  outline: 1px solid #828282;
+
 }
