@@ -4,6 +4,8 @@ body {
 }
 li .lang {
   font-size:large;
+  font-weight: bolder;
+
 }
 section {
   background-color: white;
