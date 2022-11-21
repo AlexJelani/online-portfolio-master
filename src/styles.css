@@ -104,6 +104,11 @@ p.input.textarea.label {
   background-color: #a9a9a9;
   color: #808080;
 }
+.inline {
+  display: inline-block;
+  margin-right: 5px;
+}
+
 .socials {
   padding-bottom: 200px;
   color: white;
