@@ -12,6 +12,9 @@ var arrLang = {
     //can add lots of data
     ABOUTME:
       "Hello. My name is Jelani Alexander. I am a Software Developer with a passion for developing user friendly applications using frontend and backend technologies.",
+      EMAIL: "Email",
+      SUBJECT:"Subject",
+      MESSAGE:"Message"
   },
   "zh-tw": {
     ABOUT: "私について",
@@ -22,6 +25,9 @@ var arrLang = {
     //cant add lots of data
     ABOUTME:
       "こんにちは。私の名前はジェラニ・アレクサンダーです。私はユーザーフレンドリーなアプリケーションを開発することに情熱を持っているソフトウェア開発者ですフロントエンドとバックエンドのテクノロジーを使用します。",
+      EMAIL:"メールアドレス",
+      SUBJECT:"件",
+      MESSAGE:"お問い合わせ内容"
   },
 };
 
