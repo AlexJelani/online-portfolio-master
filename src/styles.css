@@ -165,6 +165,7 @@ p.input.textarea.label {
 .project-image {
   margin-top: 25px;
   width: 250px;
+  height:250px;
   border-radius: 125px;
 }
 hr {
