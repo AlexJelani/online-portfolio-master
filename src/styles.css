@@ -118,6 +118,15 @@ a.backanchor:hover {
   display: inline-block;
   margin-right: 5px;
 }
+.skill-container {
+  width: 50vw;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: 200px;
+  gap: 10px;
+  align-items: center;
+  padding-top: 50px;
+}
 
 .socials {
   padding-bottom: 200px;
