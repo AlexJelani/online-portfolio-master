@@ -9,7 +9,11 @@ li .lang {
 section {
   background-color: white;
 }
-
+.fa-fw {
+  text-align: center;
+  width: 5.25em;
+  font-size: x-large;
+}
 .hero {
   background-color: #1c1d25;
   height: 100vh;
