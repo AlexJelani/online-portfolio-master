@@ -6,10 +6,10 @@ var arrLang = {
     PROJECT: "Projects",
     CONTACT: "Contact",
     NAME: "Jelani Alexander",
-    JOB: "Full Stack Developer",
+    JOB: "React Frontend Developer",
     //can add lots of data
     ABOUTME:
-      "Hello. My name is Jelani Alexander. I am a Software Developer with a passion for developing user friendly applications using frontend and backend technologies.",
+      "Hello. My name is Jelani Alexander. I am a Frontend Software Developer with a passion for developing user friendly applications using frontend and backend technologies.",
     EMAIL: "Email",
     SUBJECT: "Subject",
     MESSAGE: "Message",
