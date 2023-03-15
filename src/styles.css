@@ -132,6 +132,11 @@ a.backanchor:hover {
   padding-top: 50px;
 }
 
+.fab.fa-react {
+  color: #333;
+}
+
+
 .socials {
   padding-bottom: 200px;
   color: white;
