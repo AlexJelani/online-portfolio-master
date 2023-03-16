@@ -60,3 +60,26 @@ function toggleButton() {
 }
 
 hamburgerButton.addEventListener("click", toggleButton);
+
+// get the footer element
+const footer = document.getElementById("footer-end");
+
+// listen for scroll events
+window.addEventListener("scroll", function() {
+  // get the current scroll position
+  const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+  // get the height of the page and the viewport
+  const pageHeight = document.documentElement.scrollHeight;
+  const viewportHeight = window.innerHeight;
+
+  // calculate the distance from the bottom of the page
+  const distanceFromBottom = pageHeight - (scrollPosition + viewportHeight);
+
+  // show or hide the footer based on the distance from the bottom
+  if (distanceFromBottom <= 0) {
+    footer.style.bottom = "0";
+  } else {
+    footer.style.bottom = `-${footer.clientHeight}px`;
+  }
+});
