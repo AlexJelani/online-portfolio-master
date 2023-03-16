@@ -83,3 +83,35 @@ window.addEventListener("scroll", function() {
     footer.style.bottom = `-${footer.clientHeight}px`;
   }
 });
+
+
+// get the scroll-up button element
+const scrollUpButton = document.getElementById("scrollUpButton");
+
+// listen for scroll events
+window.addEventListener("scroll", function() {
+  // get the current scroll position
+  const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+  // get the height of the page and the viewport
+  const pageHeight = document.documentElement.scrollHeight;
+  const viewportHeight = window.innerHeight;
+
+  // calculate the distance from the bottom of the page
+  const distanceFromBottom = pageHeight - (scrollPosition + viewportHeight);
+
+  // show or hide the scroll-up button based on the distance from the bottom
+  if (distanceFromBottom <= 0) {
+    scrollUpButton.style.display = "block";
+  } else {
+    scrollUpButton.style.display = "none";
+  }
+});
+
+// scroll to the top of the page when the button is clicked
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
