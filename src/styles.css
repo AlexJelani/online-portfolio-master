@@ -2,6 +2,10 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 li .lang {
   font-size: large;
   font-weight: bolder;
