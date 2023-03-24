@@ -6,7 +6,6 @@ import {skills} from "../data";
 const Skills = () => {
   return (
     <section className=" bg-secondary py-12" >
-      <container className="mx-auto">
         <div className="grid grid-cols-8 md:grid-flow-row">
           {skills.map((skill, index) => {
             return (
@@ -16,7 +15,6 @@ const Skills = () => {
             );
           })}
         </div>
-      </container>
     </section>
   );
 };
