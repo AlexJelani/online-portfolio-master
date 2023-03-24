@@ -10,7 +10,7 @@ export const social = [
   },
 
   {
-    icon: <FaGithub style={{fontSize:"xxx-large"}}  />,
+    icon: <FaGithub style={{fontSize:"xxx-large"}}   />,
     href: "",
   },
 ];

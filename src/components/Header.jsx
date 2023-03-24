@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 flex justify-between px-5 py-2 bg-primary text-white">
       <div className="flex items-center">
-        <a href="/" className="logo text-2xl font-bold flex items-center">
+        <a href="/" className="text-white text-4xl font-bold flex items-center">
           Jelani
           <div className="ml-4">
             <Socials />
