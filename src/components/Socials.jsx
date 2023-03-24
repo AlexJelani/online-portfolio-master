@@ -7,7 +7,7 @@ const Socials = () => {
   return (
     <ul className='flex space-6-x'>
       {social.map((item, index)=>{
-        return <li className='flex justify-center items-center key={index}'>
+        return <li key={index} className='flex justify-center items-center key={index}'>
             <a className='text-base mx-1'   href={item.href}>
                 {item.icon}
             </a>
