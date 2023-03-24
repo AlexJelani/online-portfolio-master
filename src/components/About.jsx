@@ -1,6 +1,5 @@
 import React from 'react'
 import AboutImg from '../assets/about-img-two.jpg'
-import Skills from './Skills';
 
 const About = () => {
     return (
@@ -14,7 +13,6 @@ const About = () => {
             Hello, my name is Jelani Alexander, and I'm a software developer. My passion is to create user-friendly applications using a combination of frontend and backend technologies. I specialize in React, and I have recently developed a strong interest in TypeScript. 
             I believe that continuous learning is essential in the tech industry, and I always strive to improve my skills. Apart from coding, I enjoy exploring art, music, and Japanese culture, and I'm always eager to learn new things.
             </p>
-           <Skills/>
           </div>
           <div className="hero-img">
             <img src={AboutImg} alt="coding illustration" className="lgw-[80%] md:ml-auto w-96 ml-auto rounded-full" />
