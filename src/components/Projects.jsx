@@ -9,7 +9,7 @@ const Projects = () => {
     {
       img: project1,
       title: "My Portfolio",
-      desc: " A portfolio website built with React and Tailwind CSS ",
+      desc: " A portfolio website built with React, Tailwind CSS, and Firebase ",
       live: "https://alexander-jelani-portfolio.web.app/",
       github: "https://github.com/AlexJelani/online-portfolio-master",
     },
@@ -30,7 +30,7 @@ const Projects = () => {
     {
       img: project4,
       title: "React-TypeScript Shopping Cart",
-      desc: "A responsive e-commerce shopping cart app is built using React and TypeScript",
+      desc: "A responsive e-commerce shopping cart app is built using React, TypeScript, and Firebase",
       live: "https://react-ts-shoppingcart.web.app/store ",
       github: "https://github.com/AlexJelani/react-ts-shopping-cart",
     },
