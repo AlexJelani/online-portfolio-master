@@ -9,7 +9,7 @@ const Contact = () => {
       </h2>
       <p className="py-2">//Submit the form below or send me an email</p>
          <p className="py-2"><span className="font-bold">Email: </span>jelanialexander@ymail.com</p>
-      <form action="https://formsubmit.co/jelanialexander82@gmail.com" method="POST">
+      <form action="https://formsubmit.co/jelanialexander@ymail.com" method="POST">
               <label for="name" className="text-white" key="INPUTNAME">Name</label>
               <input type="text" name="name" required />
               <input type="hidden" name="_next" value="https://www.alexander-jelani.me/thankyou.html" />

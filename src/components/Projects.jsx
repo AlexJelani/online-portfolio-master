@@ -10,8 +10,8 @@ const Projects = () => {
       img: project1,
       title: "My Portfolio",
       desc: " A portfolio website built with React and Tailwind CSS ",
-      live: "https://devlogg.onrender.com/",
-      github: "https://github.com/Coderamrin/devlog",
+      live: "https://alexander-jelani-portfolio.web.app/",
+      github: "https://github.com/AlexJelani/online-portfolio-master",
     },
     {
       img: project2,
