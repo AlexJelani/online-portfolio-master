@@ -17,22 +17,22 @@ const Projects = () => {
       img: project2,
       title: "Social Media Friend Tracker",
       desc: "Social Media Friend Tracker built with React, CSS, and custom API backend for CRUD operations.",
-      live: "https://uilogs.xyz/",
-      github: "https://github.com/Coderamrin/html-templates",
+      live: "https://social-media-friend-tracker-ef052f.netlify.app/",
+      github: "https://github.com/AlexJelani/Social-Media-Friend-Tracker",
     },
     {
       img: project3,
       title: "A React Dictionary",
       desc: " A Full-Stack React Dictionary app with an Express backend, Tailwind UI,and data from two APIs.",
-      live: "https://build-10-css-projects.netlify.app/",
-      github: "https://github.com/Coderamrin/build-10-css-projects",
+      live: "https://react-picture-dictionary-app.web.app/",
+      github: "https://github.com/AlexJelani/React-dictionary-picture-app",
     },
     {
       img: project4,
       title: "React-TypeScript Shopping Cart",
       desc: "A responsive e-commerce shopping cart app is built using React and TypeScript",
-      live: "https://get-inspirred.netlify.app/",
-      github: "https://github.com/Coderamrin/get-inspired",
+      live: "https://react-ts-shoppingcart.web.app/store ",
+      github: "https://github.com/AlexJelani/react-ts-shopping-cart",
     },
   ];
   return (
