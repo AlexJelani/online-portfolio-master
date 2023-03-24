@@ -10,8 +10,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 flex justify-between px-5 py-2 bg-primary text-white">
       <div className="flex items-center">
         <a href="/" className="logo text-4xl font-bold flex items-center">
-          <span style={{color: "white"}} >Jelani</span>
-      
+          <span style={{ color: "white" }}>Jelani</span>
           <div className="ml-4">
             <Socials />
           </div>
