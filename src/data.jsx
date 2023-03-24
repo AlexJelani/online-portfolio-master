@@ -5,7 +5,7 @@ import { FaLinkedin } from 'react-icons/fa';
 // social
 export const social = [
   {
-    icon: <FaLinkedin style={{fontSize:"xxx-large"}} />,
+    icon: <FaLinkedin  style={{fontSize:"xxx-large"}} />,
     href: "",
   },
 

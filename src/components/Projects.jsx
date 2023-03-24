@@ -43,9 +43,7 @@ const Projects = () => {
             Projects
           </h2>
           <p className="pb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-            dolore nostrum nihil dicta vel earum doloribus obcaecati at numquam
-            delectus.
+            //Check out some of my recent work
           </p>
         </div>
       </div>

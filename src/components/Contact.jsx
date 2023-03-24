@@ -7,10 +7,8 @@ const Contact = () => {
       <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[200px] mx-auto border-indigo-600 pb-2">
         Contact Me
       </h2>
-      <p className="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem iure numquam perspiciatis 
-        maxime vitae mollitia,
-         possimus voluptas impedit neque sunt?</p>
-         <p className="py-2"><span className="font-bold">Email:</span>jelanialexander@ymail.com</p>
+      <p className="py-2">//Submit the form below or send me an email</p>
+         <p className="py-2"><span className="font-bold">Email: </span>jelanialexander@ymail.com</p>
       <form action="https://formsubmit.co/jelanialexander82@gmail.com" method="POST">
               <label for="name" className="text-white" key="INPUTNAME">Name</label>
               <input type="text" name="name" required />
