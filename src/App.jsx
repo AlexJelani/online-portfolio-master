@@ -1,11 +1,23 @@
-import React from 'react'
 
-const App = () => {
+import Header from "./components/Header"
+import Hero from "./components/Hero"
+import About from "./components/About"
+import Contact from "./components/Contact"
+import Footer from "./components/Footer"
+import Projects from "./components/Projects"
+function App() {
   return (
-    <div>
-      <h1  className="text-3xl font-bold underline">Hi</h1>
-    </div>
+    <>
+      <Header/>
+      <Hero/>
+      <About/>
+      <Projects/>
+      <Contact/>
+      <Footer/>
+    </>
   )
+ 
 }
+    
 
 export default App
