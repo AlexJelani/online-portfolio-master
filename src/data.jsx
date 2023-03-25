@@ -6,12 +6,12 @@ import { FaLinkedin } from 'react-icons/fa';
 export const social = [
   {
     icon: <FaLinkedin  style={{fontSize:"xxx-large"}} />,
-    href: "",
+    href: "https://github.com/AlexJelani/online-portfolio-master",
   },
 
   {
     icon: <FaGithub style={{fontSize:"xxx-large"}}   />,
-    href: "",
+    href: "https://github.com/AlexJelani",
   },
 ];
 
