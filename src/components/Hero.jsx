@@ -12,8 +12,8 @@ const Hero = () => {
             Developer
           </h1>
           <p className="py-5">
-            I am proficent in React.js, TypeScript, React Native, Tailwind and
-            Material UI CSS.
+            I am proficent in React.js, TypeScript, React Native, Tailwind,
+            Material UI CSS, and Firebase.
           </p>
           <a
             href="/#projects"
