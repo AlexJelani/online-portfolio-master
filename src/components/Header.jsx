@@ -30,7 +30,13 @@ const Header = () => {
             <a href="/#contact">Contact</a>
           </li>
           <li>
-          <a href="./assets/JelaniAlexanderResume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a
+              href="src/assets/JelaniAlexanderResume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
           </li>
         </ul>
       </nav>
@@ -50,7 +56,13 @@ const Header = () => {
             <a href="/#contact">Contact</a>
           </li>
           <li>
-            <a href="./assets/JelaniAlexanderResume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a
+              href="src/assets/JelaniAlexanderResume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
           </li>
         </ul>
       </nav>

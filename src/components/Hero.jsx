@@ -22,7 +22,8 @@ const Hero = () => {
             See projects
           </a>
           <a
-            href="./assets/JelaniAlexanderResume.pdf" target="_blank" rel="noopener noreferrer"
+            href="src/assets/JelaniAlexanderResume.pdf"
+            target="_blank" rel="noopener noreferrer"
             class="btn bg-accent border-2 border-[#7477FF] text-white px-4 py-2 hover:bg-transparent ml-2"
           >
             Resume
