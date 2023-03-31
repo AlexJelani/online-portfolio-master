@@ -31,7 +31,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="assets/JelaniAlexanderResume.pdf"
+              href="https://drive.google.com/file/d/1eZLN8hAv98u4NlNq_-Sk3usdMViNLbwE/view?usp=share_link"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -57,7 +57,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="assets/JelaniAlexanderResume.pdf"
+              href="https://drive.google.com/file/d/1eZLN8hAv98u4NlNq_-Sk3usdMViNLbwE/view?usp=share_link"
               target="_blank"
               rel="noopener noreferrer"
             >
