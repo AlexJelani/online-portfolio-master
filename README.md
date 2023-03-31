@@ -1,6 +1,5 @@
 # online-portfolio-master
-  - What tools did you use to implement this project?
-  
+ Developed a professional portfolio website using React, styled with Tailwind CSS, and deployed it on Firebase. The website showcases my web development skills, projects, and achievements in a visually appealing and easy-to-navigate format.
 ## Project Screen Shot(s)
 
 #### Example:   
