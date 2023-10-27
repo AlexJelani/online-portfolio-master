@@ -10,8 +10,9 @@ const About = () => {
               About Me
             </h2>
             <p className="pb-5">
-            Hello, my name is Jelani Alexander, and I'm a software developer. My passion is to create user-friendly applications using a combination of frontend and backend technologies. I specialize in React, and I have recently developed a strong interest in TypeScript. 
-            I believe that continuous learning is essential in the tech industry, and I always strive to improve my skills. Apart from coding, I enjoy exploring art, music, and Japanese culture, and I'm always eager to learn new things.
+            Hello, my name is Jelani Alexander, and I’m a software developer. My goal is to create user-friendly apps by combining frontend and backend technologies. I specialize in React, JavaScript, and CSS 
+            and I have recently developed a strong interest in OpenAI and Dall-E. I believe that continuous learning is essential in the tech industry, and I always strive to improve my skills. Apart from coding, 
+            I enjoy exploring art, music, and Japanese culture, and I’m always eager to learn new things.
             </p>
           </div>
           <div className="hero-img">

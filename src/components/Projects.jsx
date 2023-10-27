@@ -1,5 +1,5 @@
 import React from "react";
-import project1 from "../assets/portfoliosite.png";
+import project1 from "../assets/recipeaiimage.png";
 import project2 from "../assets/friendtracker.png";
 import project3 from "../assets/reactdictionary.png";
 import project4 from "../assets/greatdev.png";
@@ -8,24 +8,17 @@ const Projects = () => {
   const projects = [
     {
       img: project1,
-      title: "My Portfolio",
-      desc: " A portfolio website built with React, Tailwind CSS, and Firebase ",
-      live: "https://alexander-jelani-portfolio.web.app/",
-      github: "https://github.com/AlexJelani/online-portfolio-master",
+      title: "AI Recipe Generator",
+      desc: " A recipe bot built with OpenAI, Dall-E,and Firebase ",
+      live: "https://ai-recipegenerator.web.app/",
+      github: "https://github.com/AlexJelani/ai-recipe-generator",
     },
     {
-      img: project2,
-      title: "Social Media Friend Tracker",
-      desc: "Social Media Friend Tracker built with React, CSS, and custom API backend for CRUD operations.",
-      live: "https://social-media-friend-tracker-ef052f.netlify.app/",
-      github: "https://github.com/AlexJelani/Social-Media-Friend-Tracker",
-    },
-    {
-      img: project3,
-      title: "A React Dictionary",
-      desc: " A Full-Stack React Dictionary app with an Express backend, Tailwind UI,and data from two APIs.",
-      live: "https://react-picture-dictionary-app.web.app/",
-      github: "https://github.com/AlexJelani/React-dictionary-picture-app",
+      img: project1,
+      title: "AI Recipe Generator",
+      desc: " A recipe bot built with OpenAI, Dall-E,and Firebase ",
+      live: "https://ai-recipegenerator.web.app/",
+      github: "https://github.com/AlexJelani/ai-recipe-generator",
     },
     {
       img: project4,
@@ -33,6 +26,13 @@ const Projects = () => {
       desc: "A responsive e-commerce shopping cart app is built using React, TypeScript, and Firebase",
       live: "https://react-ts-shoppingcart.web.app/store ",
       github: "https://github.com/AlexJelani/react-ts-shopping-cart",
+    },
+    {
+      img: project2,
+      title: "Social Media Friend Tracker",
+      desc: "Social Media Friend Tracker built with React, CSS, and custom API backend for CRUD operations.",
+      live: "https://social-media-friend-tracker-ef052f.netlify.app/",
+      github: "https://github.com/AlexJelani/Social-Media-Friend-Tracker",
     },
   ];
   return (
@@ -42,9 +42,7 @@ const Projects = () => {
           <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">
             Projects
           </h2>
-          <p className="pb-5">
-            //Check out some of my recent work
-          </p>
+          <p className="pb-5">//Check out some of my recent work</p>
         </div>
       </div>
       <div className="max-w-[1536px] grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3 mx-auto">
