@@ -10,13 +10,14 @@ const Projects = () => {
       img: project1,
       title: "Mallbot - Fine-tuned AI Mall Assistant Bot",
       desc: " An AI bot for store location assistance and mall inquiries built JavaScript and the OpenAI API.  ",
-      live: "https://ai-recipegenerator.web.app/",
-      github: "https://github.com/AlexJelani/ai-recipe-generator",
+      live: "https://fine-tuned-model-mallbot.netlify.app/",
+      github: "https://github.com/AlexJelani/mallguide-bot",
     },
     {
       img: project2,
       title: "AI Recipe Generator",
       desc: " An AI recipe generator using OpenAI's DALL-E and Firebase, which generates recipes and accompanying images based on user input.",
+      live: "https://ai-recipegenerator.web.app/",
       github: "https://github.com/AlexJelani/ai-recipe-generator",
     },
     {
