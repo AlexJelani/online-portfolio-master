@@ -12,8 +12,8 @@ const Hero = () => {
             Developer
           </h1>
           <p className="py-5">
-            I am proficent in OpenAI, Prompt Engineering, DALL-E React.js, TypeScript, React Native, Tailwind,
-            Material UI CSS, and Firebase.
+            I am proficent in OpenAI, Prompt Engineering, DALL-E, React, JavaScript, TypeScript, React Native, Tailwind,
+            Material UI, CSS, and Firebase.
           </p>
           <a
             href="/#projects"
